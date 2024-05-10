@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Inicio() {
   return (
-    <section id="inicio" className="flex justify-center items-center min-h-screen bg-gradient-to-tr from-gray-800 to-black">
+    <section id="inicio" className="flex justify-center items-center min-h-screen bg-gradient-to-tr from-gray-800 to-black pt-14">
       <div className="container flex flex-col justify-center items-center gap-3 md:mx-6 lg:mx-9 text-white py-6 text-center">
         <Image src={"/images/foto-perfil.jpg"} alt="Foto do Pedro Dias" width={200} height={200} className="rounded-full" />
         <h1 className="container sm:text-xl text-base font-bold p-2">
