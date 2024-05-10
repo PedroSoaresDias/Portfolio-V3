@@ -32,6 +32,7 @@ export default function Navbar() {
             <button
               className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
               onClick={toggleNavbar}
+              aria-label={"Menu de navegação"}
             >
               {isOpen ? <RxCross2 size={24} /> : <AiOutlineMenu size={24} />}
             </button>
