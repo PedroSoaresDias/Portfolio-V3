@@ -3,9 +3,9 @@ import Image from "next/image"
 
 export default function Skills() {
   return (
-    <section id="skills" className="bg-gradient-to-tr from-gray-800 to-black">
+    <section id="skills" className="bg-gradient-to-tr from-gray-800 to-black pt-10">
       <div className="py-6 px-4 text-center">
-        <h2 className="my-4 text-xl font-bold text-white">Conhecimento em Tecnologias</h2>
+        <h2 className="my-4 text-2xl font-bold text-white">Conhecimento em Tecnologias</h2>
         <span className="italic my-4 text-white font-normal">Escolhi essas tecnologias devido à minha experiência direta com elas, o que me permite desenvolver aplicações com maior confiança.</span>
       </div>
       <div>

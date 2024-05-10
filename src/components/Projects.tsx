@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export default function Projects() {
   return (
-    <section id="projetos" className="bg-gradient-to-tr from-gray-800 to-black">
+    <section id="projetos" className="bg-gradient-to-tr from-gray-800 to-black pt-10">
       <div className="py-6 px-4 text-center">
-        <h2 className="my-4 text-xl font-bold text-white">Projetos</h2>
+        <h2 className="my-4 text-2xl font-bold text-white">Projetos</h2>
         <span className="italic my-4 text-white font-normal">Realizei estes projetos para aprimorar minhas habilidades tecnológicas e também por iniciativa própria.</span>
       </div>
       <div>

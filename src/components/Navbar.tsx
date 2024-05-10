@@ -13,7 +13,7 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="bg-gray-950">
+    <nav className="bg-gray-950 fixed w-full">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
@@ -23,9 +23,9 @@ export default function Navbar() {
           </div>
           <div className="hidden md:block">
             <div className="ml-4 flex items-center space-x-4">
-              <Link href={"/"} className="text-white transition-all duration-300 hover:text-purple-600">Inicio</Link>
-              <Link href={"/skills"} className="text-white transition-all duration-300 hover:text-purple-600">Skills</Link>
-              <Link href={"/projetos"} className="text-white transition-all duration-300 hover:text-purple-600">Projetos</Link>
+              <Link href={"/#inicio"} className="text-white transition-all duration-300 hover:text-purple-600">Inicio</Link>
+              <Link href={"/#skills"} className="text-white transition-all duration-300 hover:text-purple-600">Skills</Link>
+              <Link href={"/#projetos"} className="text-white transition-all duration-300 hover:text-purple-600">Projetos</Link>
             </div>
           </div>
           <div className="md:hidden flex items-center">
@@ -41,9 +41,9 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-2 sm:px-3">
-            <Link href={"/"} className="text-white block transition-all duration-300 hover:text-purple-600">Inicio</Link>
-            <Link href={"/skills"} className="text-white block transition-all duration-300 hover:text-purple-600">Skills</Link>
-            <Link href={"/projetos"} className="text-white block transition-all duration-300 hover:text-purple-600">Projetos</Link>
+            <Link href={"/#inicio"} className="text-white block transition-all duration-300 hover:text-purple-600">Inicio</Link>
+            <Link href={"/#skills"} className="text-white block transition-all duration-300 hover:text-purple-600">Skills</Link>
+            <Link href={"/#projetos"} className="text-white block transition-all duration-300 hover:text-purple-600">Projetos</Link>
           </div>
         </div>
       )}
