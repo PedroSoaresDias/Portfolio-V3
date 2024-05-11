@@ -28,8 +28,8 @@ export default function Navbar() {
               animate={{ scale: 1 }}
               transition={{ delay: 0.2 }}
             >
-              <h1 className="text-white text-xl font-bold transition-all duration-300 hover:text-purple-600">
-                Pedro Dias
+              <h1 className="text-white text-2xl font-bold transition-all duration-300 hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-tr hover:from-blue-500 hover:to-purple-500">
+                Portfólio
               </h1>
             </motion.div>
           </div>
