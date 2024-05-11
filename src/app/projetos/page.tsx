@@ -23,14 +23,14 @@ export default function Projects() {
               <div className="my-3">
                 <a
                   href={project.url_project}
-                  className="bg-blue-600 text-white font-medium mx-1 p-2 rounded-lg transition-all duration-300 hover:bg-blue-800 transform-all hover:scale-110"
+                  className="bg-blue-600 text-white text-xs md:text-sm lg:text-base font-medium mx-1 p-2 rounded-lg transition-all duration-300 hover:bg-blue-800 transform-all hover:scale-110"
                   target="_blanck"
                 >
                   Projeto
                 </a>
                 <a
                   href={project.url_repository}
-                  className="bg-purple-600 text-white font-medium mx-1 p-2 rounded-lg transition-all duration-300 hover:bg-purple-800 transform-all hover:scale-110"
+                  className="bg-purple-600 text-white text-xs md:text-sm lg:text-base font-medium mx-1 p-2 rounded-lg transition-all duration-300 hover:bg-purple-800 transform-all hover:scale-110"
                   target="_blanck"
                 >
                   Repositório
