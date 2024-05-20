@@ -12,7 +12,7 @@ export default function RedesSociais() {
           aria-label={"Link para o perfil do Linkedin"}
           className="border-2 border-blue-500 rounded-lg p-2"
           whileHover={{ scale: 1.2, borderRadius: "50%" }}
-          whileTap={{ scale: 0.85 }}
+          whileTap={{ scale: 0.85, borderRadius: "50%" }}
           transition={{ duration: 0.2 }}
         >
           <FaLinkedin className="text-blue-500" size={25} />
@@ -24,7 +24,7 @@ export default function RedesSociais() {
           aria-label={"Link para o perfil do GitHub"}
           className="border-2 border-gray-100 rounded-lg p-2"
           whileHover={{ scale: 1.2, borderRadius: "50%" }}
-          whileTap={{ scale: 0.85 }}
+          whileTap={{ scale: 0.85, borderRadius: "50%" }}
           transition={{ duration: 0.2 }}
         >
           <FaGithub className="text-gray-100" size={25} />
