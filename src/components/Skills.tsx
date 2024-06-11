@@ -11,7 +11,7 @@ export default function Skills() {
       <div>
         <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4 px-8 pb-8">
           {dataSkills && dataSkills.map(skill => (
-            <div key={skill.id} className="border-2 border-white rounded-lg text-center shadow shadow-gray-500 p-3">
+            <div key={skill.id} className="mockup-window border-2 border-white text-center shadow shadow-gray-500 p-3">
               <a href={skill.href} target="_blanck">
                 <Image
                   src={skill.image}

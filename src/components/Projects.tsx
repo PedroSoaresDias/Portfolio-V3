@@ -11,32 +11,33 @@ export default function Projects() {
       <div>
         <div className="grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 gap-4 px-8 pb-8">
           {dataProjects && dataProjects.map(project => (
-            <div key={project.id} className="border-2 border-white rounded-lg text-center shadow shadow-gray-500 p-3">
-              <Image
-                src={project.image}
-                alt={project.alt}
-                width={640}
-                height={360}
-                className="rounded-2xl"
-              />
-              <h3 className="text-center font-semibold mt-2 text-white">{project.name}</h3>
-              <div className="my-3">
-                <a
-                  href={project.url_project}
-                  className="bg-blue-600 text-white text-xs md:text-sm lg:text-base font-medium mx-1 p-2 rounded-lg transition-all
-                                    duration-300 hover:bg-blue-800 transform-all hover:scale-110"
-                  target="_blanck"
-                >
-                  Projeto
-                </a>
-                <a
-                  href={project.url_repository}
-                  className="bg-purple-600 text-white text-xs md:text-sm lg:text-base font-medium mx-1 p-2 rounded-lg transition-all
-                                    duration-300 hover:bg-purple-800 transform-all hover:scale-110"
-                  target="_blanck"
-                >
-                  Repositório
-                </a>
+            <div key={project.id} className="card card-compact text-center shadow shadow-gray-500">
+              <figure>
+                <Image
+                  src={project.image}
+                  alt={project.alt}
+                  width={640}
+                  height={360}
+                />
+              </figure>
+              <div className="card-body text-center items-center">
+                <h3 className="card-title text-white">{project.name}</h3>
+                <div className="card-actions justify-center">
+                  <a
+                    href={project.url_project}
+                    className="btn bg-blue-600 text-white text-xs md:text-sm lg:text-base font-medium p-2 transition-all duration-300 hover:bg-blue-800 transform-all"
+                    target="_blanck"
+                  >
+                    Projeto
+                  </a>
+                  <a
+                    href={project.url_repository}
+                    className="btn bg-purple-600 text-white text-xs md:text-sm lg:text-base font-medium p-2  transition-all duration-300 hover:bg-purple-800 transform-all"
+                    target="_blanck"
+                  >
+                    Repositório
+                  </a>
+                </div>
               </div>
             </div>
           ))}
