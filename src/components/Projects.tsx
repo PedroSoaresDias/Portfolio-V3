@@ -6,7 +6,7 @@ export default function Projects() {
     <section id="projetos" className="bg-gradient-to-tr from-gray-800 to-black pt-10">
       <div className="py-6 px-4 text-center">
         <h2 className="my-4 text-2xl font-bold text-white">Projetos</h2>
-        <span className="italic my-4 text-white font-normal">Realizei estes projetos para aprimorar minhas habilidades tecnológicas e também por iniciativa própria.</span>
+        <span className="my-4 text-white font-normal">Realizei estes projetos para aprimorar minhas habilidades tecnológicas e também por iniciativa própria.</span>
       </div>
       <div>
         <div className="grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 gap-4 px-8 pb-8">
